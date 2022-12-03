@@ -1,0 +1,106 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="486,837" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="35">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="496,772" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Application: new 1 - Notepad++" sap:VirtualizedContainerService.HintSize="434,650" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="caf7e4e1-6295-4cad-b6c9-cf271f803642" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,350" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Scintilla'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="338,227" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="caf7e4e1-6295-4cad-b6c9-cf271f803642" Text="I am a robot made by Akhil Binoy" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="10, 77, 694, 568" DesignTimeScaleFactor="1" FriendlyName="'Scintilla'" FullSelectorArgument="&lt;wnd cls='Scintilla' idx='2' title='Notepad++' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Scintilla' title='Notepad++' /&gt;" Guid="ab26d9ff-ee40-4692-80a2-23a9dab3850c" ImageBase64="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AQBIEroAACQJXQAAkoQuAABJQhcAgCShCwBAktAFACBJ6AIAkCR0AQBIEroAACQJXQAAkoQuAABJQhcAgCShCwBAktAFACBJ6AIAkCR0AQBIEroAACQJXQAAkoQuAABJQhcAgCShCwBAktAFACBJ6AIAkCR0AQBIEroAACQJXQAAkoQuAABJQhcAgCShCwBAktAFACBJ6AIAkCR0AQBIEroAACQJXQAAkoQuAABJQhcAgCShCwBAktAFACBJ6AIAkCR0AQBIEroAACQJXQAAkoQuAABJQhcAgCShCwBAktAFACBJ6AIAkCR0AQBIEroAACQJXQAAkoQuAABJQhcAgCShCwBAktAFACBJ6AIAkCR0AQBIEroAACQJXQAAkoQuAABJQhcAgCShCwBAktAFACBJ6AIAkCR0AQBIEroAACQJXQAAkoQuAABJQhcAgCShCwBAktAFACBJ6AIAkCR0AQBIEroAACQJXQAAkoQuAABJQhcAgCShCwBAktAFACBJ6AIAkCR0AQBIEroAACQJXQAAkoQuAABJQhcAgCShCwBAktAFACBJ6AIAkCR0AQBIEroAACQJXQAAkoQuAABJQhcAgCShCwBAktAFACBJ6AIAkCR0AQBIEroAACQJXQAAkoQuAABJQhcAgCShCwBAktAFACBJ6AIAkCR0AQBIEroAACQJXQAAkoQuAABJQhcAgCShCwBAktAFACBJ6AIAkCR0AQBIEroAACQJXQAAkoQuAABJQhcAgCShCwBAktAFACBJ6AIAkCR0AQBIEroAACQJXQAAkoQuAABJQhcAgCShCwBAktAFACBJ6AIAkCR0AQBIEroAACT9K3QBACBmPAQAgMXePP4EypHQl5JXfqgAAAAASUVORK5CYII=" InformativeScreenshot="19d0c24b32f370941742969878572f21.png" ScopeSelectorArgument="&lt;wnd app='notepad++.exe' cls='Notepad++' title='new 1 - Notepad++' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="26, 24, 718, 678" FilePath="C:\Program Files\Notepad++\notepad++.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASgSURBVFhHrZdrTBxVFMdna/1iommamCaE+mhUjIZqxNqgVkQbTdpqY2qNCd9MbdqmjaKt2KAt7Gt2YWEtr4Xl0UpjF+T96ApYeRbQ1SK1tYQqXWwhrYYKpSywy+4c77nMDDPDArPIP/nnzD139pzfmZnN7jAog8Fwx2g0+ux2eyPLsn6MZO2VRpKfWWhdXFzcZDKZPNnZOTG04CIqf2GzK/6pKJZfzooAeACAGxm5DT09PaAmXhDihdnocrk4AsOlpaXn8WXnKW1X3O7CTS9yJ56OhM/XrJ3i0yIA1NXVYVgwOp1OWWxoaKBRWLOsCYqKTkKuLc+ZmZl9L19elDklp/PIwQTus9ff4mRXQQBA+QMB/ig0+Wb8QG4DBMjnHY5SyMrKvmmxWB/kWzC2ovKd+cUVnDHFGti797D/UMy2dfzWHMDlweGQ3Df8t8xmsxnKysooBN4Wmy13PL/g1OPYI914sEVnNAbiE5K5Dw8dtdDGghAgwHHwf52amkohBJMHFUhtf+axmMYz+ic4a2Is98Wn73KHP45bz7eeFV46jhS45B5atq8M3Qpqj2cSqlIj4KJtdaDdeh/3dfKGDL7tnAQAvP8r7RF3E3R9xcCogwk0WzRcU8o9G/i2cxIAgk1Avl7UwfbUuLdiG1wr1EC/neGaLUwu31Kuha5AUlIShIeHU+Oxcn8pj/zVAp1k+jGHBtrSKMCTfEu5BICbo3dk9NhYuAJ4LN1T45/LdvDTa4A0L+TbzZcAMDE9IZtACSDdW8r/3jgP560M3P12FU6PABv5dvMlAAyODMCN227RSgAhj7dDep5yjXaVb4c/CzTwB3Gp+RngWwWXycRSgMvDvXDL0yhaCSDNK8+Trt2DWdCB05euojHDtF8dQPe1DhjwJItWAghRsPQhRdfX19PP/VS7UZz+Uu1uYE06dQDf9zkXBZDmlecJx33XD/DTa+g3YHSoUz1AVW8p/D7+nmglgJDHyaXnSdfddY/C1QKGPP0M/PBNJP2hYs1adQDFrgL4dewd0UoA6V4w/zK4FdrTGRgvYaDrBANVbXsogNGcrA4gp8MKbf/sFK0EkO4Fc0vtw9Cfz4C7iIGWknW0HgUwLQHA8gAp57SyggKANLeQWwe2QiuZfoxM302mb70YTeuFBPDl2SNQfX37slxTvR76cPqTDDhPr6U5rIcymJLUAcRX7oOiq2+E7NNXtsA5iwZGyfQ/ZjBQ0v0szWM9lE4twB5HHKT99lrIdlRuhm5bGPRkr4YK+xoxj/VQWlYlwPun3oZE15aQ/V35B9DfdBS67Jsg62yUmMd6qGTjUgDkrxMC7MiLhQPt0SE70fIqtNR8BPmVb8ryWC8kgJjM52UFVLktGl6KfQgSql+BT5pflu1hvZAAoiwRsKv2ueW5Zn4O66GS1AJEGMIg9kzkihnroY4bjqsDCDt2PzyS/tiKGetRAL1KgAcSmBU3Sqtf4tdQALjrnQjqCa8HPL5JmKSegikvehqmfV7wEvt8PvJqNgMzvP1+PzXWROn1+sUB8C1Gq9OCjpDqyMmznj0mbzagJ8aIRlg0/o1TY2y+MADD/Af6+04xbZxXcQAAAABJRU5ErkJggg==" InformativeScreenshot="40c9b0d9349b47b30cdb967ca9ced8c1.png" Selector="&lt;wnd app='notepad++.exe' cls='Notepad++' title='new 1 - Notepad++' /&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
